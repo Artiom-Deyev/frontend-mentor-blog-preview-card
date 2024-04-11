@@ -1,17 +1,17 @@
 @font-face {
   font-family: "Figtree";
   src: local("Figtree");
-  src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "Figtree Extrabold";
   src: local("Figtree Exrtabold");
-  src: url("assets/fonts//static/Figtree-ExtraBold.ttf");
+  src: url("../assets/fonts//static/Figtree-ExtraBold.ttf");
 }
 @font-face {
   font-family: "Figtree Semibold";
   src: local("Figtree Semibold");
-  src: url("assets/fonts/static/Figtree-SemiBold.ttf");
+  src: url("../assets/fonts/static/Figtree-SemiBold.ttf");
 }
 .text {
   font-size: 14px;
@@ -68,7 +68,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 24px;
-  max-width: 360px;
+  max-width: 330px;
   background: #FFFFFF;
   border: 1px solid #111111;
   border-radius: 20px;
@@ -99,7 +99,7 @@ body {
   margin-right: 12px;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 440px) {
   .main {
     margin-left: 24px;
     margin-right: 24px;
